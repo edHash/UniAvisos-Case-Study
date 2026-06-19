@@ -57,6 +57,118 @@ Durante el desarrollo he trabajado en:
 
 Los identificadores, archivos de configuración, reglas de seguridad y estructuras internas del proyecto no forman parte de esta publicación.
 
+
+## Documentación técnica
+
+> El repositorio no contiene el código del sistema.
+> Contiene las decisiones que explican cómo evolucionó.
+
+La documentación pública se encuentra organizada en los siguientes apartados:
+
+### [Evolución completa](docs/EVOLUTION.md)
+
+Recorrido desde la primera versión Alpha hasta la Beta 4.3 actual, incluyendo:
+
+* Validación inicial del concepto
+* Identidad institucional
+* Reorganización interna
+* Migración de datos locales a servicios remotos
+* Avisos y personalización
+* Panel administrativo provisional
+* Pruebas de extremo a extremo
+* Escalabilidad y optimización
+
+### [Arquitectura y modelo operativo](docs/ARCHITECTURE-AND-OPERATING-MODEL.md)
+
+Explicación conceptual de:
+
+* Arquitectura local inicial
+* Transición hacia una arquitectura conectada
+* Separación entre información global y preferencias locales
+* Componentes de la aplicación
+* Modelo de servicio institucional
+* Flujo de publicación de avisos
+* Panel administrativo
+* Escalabilidad
+* Seguridad
+* Estrategia de pruebas
+* Arquitectura objetivo
+
+### [Desafíos técnicos y aprendizajes](docs/CHALLENGES-AND-LESSONS.md)
+
+Análisis de los principales problemas encontrados durante el desarrollo:
+
+* Migración desde datos locales
+* Contenido dinámico
+* Navegación desde notificaciones
+* Preferencias por dispositivo
+* Administración provisional
+* Listeners innecesarios
+* Consistencia de contadores
+* Operaciones coordinadas
+* Costos de infraestructura
+* Pruebas en dispositivos reales
+
+### [Roadmap técnico](docs/ROADMAP.md)
+
+Plan de evolución propuesto:
+
+```text
+Beta 4.3 → Escalabilidad
+Beta 4.4 → Experiencia visual
+Beta 4.5 → Persistencia y sincronización
+Versión 5.0 → Seguridad y producción
+```
+
+### [Confidencialidad y alcance](docs/CONFIDENTIALITY.md)
+
+Define los límites de esta publicación y el material que permanece protegido:
+
+* Código fuente
+* Configuraciones
+* Infraestructura
+* Datos institucionales
+* Operaciones administrativas
+* Capturas no autorizadas
+
+---
+
+## Estado actual
+
+```text
+[ PROJECT STATUS ]
+
+Current version: Beta 4.3
+Current focus: Scalability and listener optimization
+Source code: Restricted
+Official screenshots: Pending authorization
+Repository type: Public technical case study
+```
+
+La Beta 4.3 se encuentra enfocada en reducir operaciones remotas innecesarias, mantener consistencia entre avisos e indicadores y preparar el sistema para una estrategia posterior de almacenamiento local y sincronización inteligente.
+
+## Evidencia visual
+
+Las capturas oficiales permanecen pendientes de autorización institucional.
+
+Hasta contar con una aprobación expresa, este repositorio no mostrará pantallas reales, paneles administrativos ni recursos gráficos oficiales.
+
+Cuando se autorice su publicación, las imágenes deberán:
+
+* Mostrar únicamente pantallas aprobadas
+* No contener datos personales
+* No exponer configuraciones
+* No mostrar herramientas restringidas
+* Ser revisadas antes de incorporarse al repositorio
+
+```text
+[ VISUAL EVIDENCE ]
+
+Authorization: Pending
+Publication status: Restricted
+Next review: Institutional approval
+```
+
 ## Evolución general
 
 ### Alpha
